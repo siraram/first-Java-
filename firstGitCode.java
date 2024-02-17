@@ -6,13 +6,9 @@ class Hello
         int x=8;
         int y = 5;
         int z = 3;
-        if(x>y && x>z)
-        {
-            System.out.println(x);
-            System.out.println("Good bye");
-        }
-        else
-        System.out.println(y);
+        int result = (x>y && x>z)? x:y;
+        System.out.println(result);
+        System.out.println("Good bye");
     }
 
 }   
