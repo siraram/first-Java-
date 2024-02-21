@@ -1,4 +1,4 @@
-class Hello
+class Ternary
 {
 
     public static void main(String a[])
